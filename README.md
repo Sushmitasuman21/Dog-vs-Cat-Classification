@@ -18,6 +18,9 @@ A few sample labeled images from the training dataset are shown below.
 Steps of this program:
 
 i. Get the data into python. 
+
 ii. Prepare the data for the algorithm.
+
 iii.Define the Model. 
+
 iv. Train the model and get the results.
