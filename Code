@@ -94,6 +94,6 @@ plt.show()
   test_img = cv2.imread('/content/cat.jpeg')
   plt.imshow(test_img)
   test_img.shape
-  test_img = cv2.resize(test_img,(2556,256))
+  test_img = cv2.resize(test_img,(256,256))
   test_input = test_img.reshape((1,256,256,3))
   model.predict(test_input)
